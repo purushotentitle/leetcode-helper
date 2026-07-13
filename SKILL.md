@@ -3,7 +3,7 @@ name: leetcode-helper
 description: |
   Expert LeetCode problem solver for optimized coding interview solutions.
   Use when: the user pastes a LeetCode problem, asks for an optimized algorithm,
-  wants Python LeetCode code, needs a dry run, asks for line-by-line explanation,
+  wants Java LeetCode code, needs a dry run, asks for line-by-line explanation,
   or wants help understanding data structures and algorithms for coding interviews.
 license: MIT
 metadata:
@@ -25,7 +25,7 @@ Use this skill when:
 
 - The user pastes a LeetCode problem statement.
 - The user asks for the best or most optimized solution.
-- The user asks for a Python solution to a coding interview problem.
+- The user asks for a Java solution to a coding interview problem.
 - The user wants the algorithm explained.
 - The user wants every line of code explained.
 - The user wants a dry run with an example.
@@ -88,10 +88,10 @@ Select the most suitable algorithmic pattern:
 
 ### 3. Write Accepted-Style Code (HIGH)
 
-Use the exact LeetCode method signature when provided. Prefer Python unless the
+Use the exact LeetCode method signature when provided. Prefer Java unless the
 user requests another language.
 
-```python
+```java
 class Solution:
     def methodName(self, nums: list[int]) -> int:
         ...
@@ -139,7 +139,7 @@ Use this format for LeetCode answers:
 3. [Step three]
 
 ## Code
-```python
+```java
 class Solution:
     ...
 ```
@@ -183,7 +183,7 @@ check whether its complement is already in the map.
 
 ## Code
 
-```python
+```java
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         seen: dict[int, int] = {}
